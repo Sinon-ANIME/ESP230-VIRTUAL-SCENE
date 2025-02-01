@@ -15,7 +15,7 @@ C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56034
+61711
 Successfully changed project path to: C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17428] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 573522330 [EditorId] 573522330 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 764344412 [EditorId] 764344412 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17428] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 573522330 [EditorId] 573522330 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 764344412 [EditorId] 764344412 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 23.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 26.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010991 seconds.
-- Loaded All Assemblies, in  0.356 seconds
+Registered in 0.019571 seconds.
+- Loaded All Assemblies, in  0.557 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.193 seconds
-Domain Reload Profiling: 547ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 900ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (139ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (199ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (166ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (193ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (346ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (150ms)
+		SetupLoadedEditorAssemblies (271ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,82 +117,53 @@ Domain Reload Profiling: 547ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.825 seconds
-Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.044 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1528ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (522ms)
-		LoadAssemblies (476ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (577ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (708ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (818ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
+		SetupLoadedEditorAssemblies (602ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (56.9 KB). Loaded Objects now: 3562.
-Memory consumption went from 121.1 MB to 121.0 MB.
-Total: 3.471900 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.982800 ms  DeleteObjects: 0.089200 ms)
+Unloading 30 unused Assets / (57.0 KB). Loaded Objects now: 3576.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 5.919000 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.086400 ms MarkObjects: 5.312700 ms  DeleteObjects: 0.282400 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17709.817513 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3562.
-Memory consumption went from 71.7 MB to 71.7 MB.
-Total: 3.755700 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.233100 ms MarkObjects: 3.192100 ms  DeleteObjects: 0.032500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -208,33 +179,415 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.987274 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(c18b7ae3d0f8e194ca2eb6fb88a8fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(c18b7ae3d0f8e194ca2eb6fb88a8fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c73bf11f08be4871bb89d00fae01938') in 0.001031 seconds
+  Time since last request: 93510.065204 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(1121a58d794036e419174cdcde46d64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(1121a58d794036e419174cdcde46d64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995cf21eeae2e3263a083768708f9dd8') in 0.020026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.915279 seconds.
+  path: Assets/Terrain
+  artifactKey: Guid(370263f0063fc1f4da0c2ad0295bda12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain using Guid(370263f0063fc1f4da0c2ad0295bda12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b876e8d73974cf6ab7d5d2f961dcd113') in 0.000990 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.607293 seconds.
-  path: Assets/Temp
-  artifactKey: Guid(4ab43996fe1e0534680d7277db95ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Temp using Guid(4ab43996fe1e0534680d7277db95ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd90d700a0ccab1ac0c8f5fe7e3c5d7b') in 0.001223 seconds
+  Time since last request: 8.066123 seconds.
+  path: Assets/Terrain's
+  artifactKey: Guid(370263f0063fc1f4da0c2ad0295bda12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain's using Guid(370263f0063fc1f4da0c2ad0295bda12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae156ed814f3ec20085b1a7da7ced63c') in 0.000455 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.665801 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(ecdb00e10436459488bfc42890073a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(ecdb00e10436459488bfc42890073a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3482d0ff5e6f0750fd15f51712757130') in 0.000429 seconds
+  Time since last request: 315.552586 seconds.
+  path: Assets/Temp/Models
+  artifactKey: Guid(9d71a6f6c65e4e34c94b96401e413174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models using Guid(9d71a6f6c65e4e34c94b96401e413174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc811b1619807dc64348f0519ef2476') in 0.001190 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 69.919859 seconds.
-  path: Assets/Scenes/Virtal Scene V1.unity
-  artifactKey: Guid(3d45746aad5d7b04bbd385c343b31cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Virtal Scene V1.unity using Guid(3d45746aad5d7b04bbd385c343b31cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f52f5e2fd4b95893e57895b80cf31d') in 0.000779 seconds
+  Time since last request: 777.217018 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.fbx
+  artifactKey: Guid(e27f7ff275b76244e93714d9d3ad8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.fbx using Guid(e27f7ff275b76244e93714d9d3ad8570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91abb740cd0d2843207da9903cb48d79') in 1.256535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1071
+========================================================================
+Received Import Request.
+  Time since last request: 3.505863 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.xml
+  artifactKey: Guid(488e7d104ec97cf44928e0c0704dcb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.xml using Guid(488e7d104ec97cf44928e0c0704dcb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0250a432e82d8327f95be14d49ab8f71') in 0.007285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.147357 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.index.bytes
+  artifactKey: Guid(f1d06dfba19d53f4c9c4d27735aac76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.index.bytes using Guid(f1d06dfba19d53f4c9c4d27735aac76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe005bdd30284ef5004b94fa93611d54') in 0.003545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.300933 seconds.
+  path: Assets/Temp/Models/FUWAWA/pmx&VRMâéâfâïïKû±.txt
+  artifactKey: Guid(3f3ebce725b95b94a9d08bae184899ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/pmx&VRMâéâfâïïKû±.txt using Guid(3f3ebce725b95b94a9d08bae184899ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd19b674d78da6e777848279ecb1bd27') in 0.002448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.827286 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.vertex.bytes
+  artifactKey: Guid(c02156964911708428ce1a38f445141a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.vertex.bytes using Guid(c02156964911708428ce1a38f445141a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252c2f37f3148225c03389ad942b09da') in 0.001115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.496416 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.model.bytes
+  artifactKey: Guid(6afbd2395918d3742a38352b53a695b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.model.bytes using Guid(6afbd2395918d3742a38352b53a695b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973518768f17c0680aaa82b61150b348') in 0.005875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.711226 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.MMD4Mecanim.xml
+  artifactKey: Guid(d8db66ff856d2a6429c2c6bf8b306ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.MMD4Mecanim.xml using Guid(d8db66ff856d2a6429c2c6bf8b306ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035b38f5d935b19f488ccc7b4aa7ac5c') in 0.001406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.268797 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.extra.bytes
+  artifactKey: Guid(3caa0f6117258ee46ba94a5f4bb3fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.extra.bytes using Guid(3caa0f6117258ee46ba94a5f4bb3fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2c48eea7b15584d39005fab8d0135b') in 0.003718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.958968 seconds.
+  path: Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.pmx
+  artifactKey: Guid(aa7ed776a135bac4ebec62c014bb7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/FUWAWA_Æ╩ÅÝê▀æò.pmx using Guid(aa7ed776a135bac4ebec62c014bb7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29de74bc2f4f59cc1f9e9189dca1afff') in 0.002892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.662467 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/0.kao.mat
+  artifactKey: Guid(15bf5c66934e1064c829ea82e7761de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/0.kao.mat using Guid(15bf5c66934e1064c829ea82e7761de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4694419a0cecb268b83aa3fd5637c1f5') in 0.108818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.079887 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/4.maegami1.mat
+  artifactKey: Guid(91abc39e580f7544aab48250fb0fc188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/4.maegami1.mat using Guid(91abc39e580f7544aab48250fb0fc188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eb4faa1d3abdbff25df5880e158333') in 0.017804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/11.tsume.mat
+  artifactKey: Guid(960747525815ea547a12249a79502d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/11.tsume.mat using Guid(960747525815ea547a12249a79502d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc289bfb26279c80ef7e70d17fb5e72c') in 0.014996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/9.ushirogami2.mat
+  artifactKey: Guid(3649216559d06ef48a4bf45dbf9aa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/9.ushirogami2.mat using Guid(3649216559d06ef48a4bf45dbf9aa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f12571d367105f00615f224ba7962c5') in 0.012019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/12.kamikazari1.mat
+  artifactKey: Guid(cd05e5eb6b281eb48bbfbc5f787e6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/12.kamikazari1.mat using Guid(cd05e5eb6b281eb48bbfbc5f787e6f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1693c603a287876d56c700b6ae2ea3b') in 0.012088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/33.kutsushiro.mat
+  artifactKey: Guid(1fa8c51a949bea94c84e19866e5b765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/33.kutsushiro.mat using Guid(1fa8c51a949bea94c84e19866e5b765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcdae1c4e2454d53395ae72a7c26c4b') in 0.023317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/24.fuku_shiro.mat
+  artifactKey: Guid(e4f6980312a22fa449406bc594dd5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/24.fuku_shiro.mat using Guid(e4f6980312a22fa449406bc594dd5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e652437145044120fca68c0ef6bb87') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/25.fuku_ao.mat
+  artifactKey: Guid(0101dc0ef0d289743876dd7a28345662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/25.fuku_ao.mat using Guid(0101dc0ef0d289743876dd7a28345662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8aa14153f2d61802a8046c605913c') in 0.014707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/20.ko^toura_shiro.mat
+  artifactKey: Guid(0f37f5cc8a16b3844a9bbdfdc72c417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/20.ko^toura_shiro.mat using Guid(0f37f5cc8a16b3844a9bbdfdc72c417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edce08d656fbfedc6a8d31885bce82dd') in 0.016405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/21.nekkuresu_kuro.mat
+  artifactKey: Guid(2c7f1f0a1673cf34c9f0d13cca8b03c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/21.nekkuresu_kuro.mat using Guid(2c7f1f0a1673cf34c9f0d13cca8b03c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b000504ed2fc0f16a3c842f42796a0') in 0.010941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/27.beruto_ao.mat
+  artifactKey: Guid(0627b6233ecb7474fa2874690c3131c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/27.beruto_ao.mat using Guid(0627b6233ecb7474fa2874690c3131c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613eb679fca15f38c3528d8f3ab6fbe') in 0.019457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/32.shitsu_.mat
+  artifactKey: Guid(e9e0a89f7b982a846a53f6f061a81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/32.shitsu_.mat using Guid(e9e0a89f7b982a846a53f6f061a81a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54142e137eef04ef295f1158dfb251a7') in 0.009262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials
+  artifactKey: Guid(6f0394c8a677ab54095940aba19a2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials using Guid(6f0394c8a677ab54095940aba19a2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126444bedd0d91d1fdb9148347cfa0bf') in 0.000891 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/14.ko^to_kuro.mat
+  artifactKey: Guid(8bea0ceeac7e356448a1bcb66f4ed62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/14.ko^to_kuro.mat using Guid(8bea0ceeac7e356448a1bcb66f4ed62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8402ffe40e1545425ef375950f15f24c') in 0.021022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/31._ntsu.mat
+  artifactKey: Guid(54ff95f4238ed1d4d945db07386759f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/31._ntsu.mat using Guid(54ff95f4238ed1d4d945db07386759f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ce7a0ef21f3d6f7167687ecc1cb9cf') in 0.010233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/10.karada.mat
+  artifactKey: Guid(4ce8fcc9fee96074c96d03925e878a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/10.karada.mat using Guid(4ce8fcc9fee96074c96d03925e878a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8896c39b4a86dd8ec2505493e6b8cdaf') in 0.016328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/18.ko^to_fa^.mat
+  artifactKey: Guid(e8cb478a5dfeb7e418d7bdedf5e18e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/18.ko^to_fa^.mat using Guid(e8cb478a5dfeb7e418d7bdedf5e18e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babbbd64aa453ad088c25b742130dfc9') in 0.010122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/26.tekkou(tsume).mat
+  artifactKey: Guid(7fc07c08b30ed484f80a12db3c8c4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/26.tekkou(tsume).mat using Guid(7fc07c08b30ed484f80a12db3c8c4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f136fb9e29d696bbe241659917d2507') in 0.014157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/28.beruto_kanagu.mat
+  artifactKey: Guid(708bb2226ba14864db17da06ef086c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/28.beruto_kanagu.mat using Guid(708bb2226ba14864db17da06ef086c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a331214cba3bb508059555799539b5e') in 0.012354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/30.ashiwa.mat
+  artifactKey: Guid(cecce8118d0817e40923623a329f933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/30.ashiwa.mat using Guid(cecce8118d0817e40923623a329f933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd6fdc36d0e951b98700a111a21fa1b') in 0.011178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/19.ko^toura_ao.mat
+  artifactKey: Guid(d19ce06b9422edb4992256a6523f6d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/19.ko^toura_ao.mat using Guid(d19ce06b9422edb4992256a6523f6d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6eed1199d0d1ea5272ab80554b8c9f') in 0.015696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/2.mayumatsuge.mat
+  artifactKey: Guid(4ed3e8c9c6786c643890e8467a023cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/2.mayumatsuge.mat using Guid(4ed3e8c9c6786c643890e8467a023cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275ab4bd2b6c896af7e32de176599a6a') in 0.012664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/7.yokokami1.mat
+  artifactKey: Guid(d4fb11af080df8e468e20b88904adc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/7.yokokami1.mat using Guid(d4fb11af080df8e468e20b88904adc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3de3f482152e20efcfc7abb2c4928ca') in 0.018794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/3.hairaito.mat
+  artifactKey: Guid(7e5c9caf0be235743b3de982f4316281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/3.hairaito.mat using Guid(7e5c9caf0be235743b3de982f4316281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22072aadb320637de971230994fcc2c') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/5.maegami2.mat
+  artifactKey: Guid(311e01b3f789590419f97279d2d80bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/5.maegami2.mat using Guid(311e01b3f789590419f97279d2d80bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402dcf694b5d75fe2e14d39890253c4c') in 0.013156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/15.ko^to_shiro.mat
+  artifactKey: Guid(63458929a8b26b34ba2639ba2be597ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/15.ko^to_shiro.mat using Guid(63458929a8b26b34ba2639ba2be597ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8e5270ad1478b1867caa72b4430fc') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/6.yokokami2.mat
+  artifactKey: Guid(b0c6a9da5e900ec4693f8d86860918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/6.yokokami2.mat using Guid(b0c6a9da5e900ec4693f8d86860918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fe8207f696f5ecb968378825f29a06') in 0.014587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/22.nekkuresu_kanagu.mat
+  artifactKey: Guid(c5a35304291817e45a450c6d11e9c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/22.nekkuresu_kanagu.mat using Guid(c5a35304291817e45a450c6d11e9c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b49c9a5a990a940c17b0d5cdf4c563') in 0.011201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/13.kamikazari2.mat
+  artifactKey: Guid(9a26d1abaddfd9d4fa3f223bf3c65a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/13.kamikazari2.mat using Guid(9a26d1abaddfd9d4fa3f223bf3c65a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b7123704c94f61afe35ffeeabea2c') in 0.010819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/8.ushirogami1.mat
+  artifactKey: Guid(afb24a75d25973348843b7c8cba515d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/8.ushirogami1.mat using Guid(afb24a75d25973348843b7c8cba515d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ef4644e8b3aa1b4dd14583dc8a03c9') in 0.014231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/17.ko^to_ribon.mat
+  artifactKey: Guid(48eddebe2f499d147881b83b47b4a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/17.ko^to_ribon.mat using Guid(48eddebe2f499d147881b83b47b4a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f9e148ef2fb9b4958bf5d98e82e676') in 0.017010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/29.beruto_chie^n.mat
+  artifactKey: Guid(883aa372c69c6704797603ac98feab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/29.beruto_chie^n.mat using Guid(883aa372c69c6704797603ac98feab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30b7b9974247908e3c3c8eaae253b3') in 0.016241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/23.nekkuresu_ao.mat
+  artifactKey: Guid(34b755d03b9c12f489c37ceb0715f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/23.nekkuresu_ao.mat using Guid(34b755d03b9c12f489c37ceb0715f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ebf5ca4e558809f265268df8c7bd8d') in 0.012113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/16.ko^to_ao.mat
+  artifactKey: Guid(3278a64f8b9e6ed42b32e3b3c2455de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/16.ko^to_ao.mat using Guid(3278a64f8b9e6ed42b32e3b3c2455de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460bc4a14d1aa6ecfb2f43714345e3fd') in 0.014193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.182841 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/34.kutsuao.mat
+  artifactKey: Guid(7a4b10849850892489fc666f9dc5f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/34.kutsuao.mat using Guid(7a4b10849850892489fc666f9dc5f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a48010eeaad9bcce0a659bcf73d1bd') in 0.013655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Temp/Models/FUWAWA/Materials/36.mo^fu.mat
+  artifactKey: Guid(c411442690b225d48955c15d1ad43d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/FUWAWA/Materials/36.mo^fu.mat using Guid(c411442690b225d48955c15d1ad43d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2392f1fa131ff1934dd228cb399bef71') in 0.014527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.276245 seconds.
+  path: Assets/Temp/Models/MOCOCO/MOCOCO_Æ╩ÅÝê▀æò.MMD4Mecanim.asset
+  artifactKey: Guid(88df8c4af0ca31c4faca9ec85ac0de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/MOCOCO/MOCOCO_Æ╩ÅÝê▀æò.MMD4Mecanim.asset using Guid(88df8c4af0ca31c4faca9ec85ac0de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf0e22dfb96cfda2f0bb2b07e708f39') in 0.004113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002529 seconds.
+  path: Assets/Temp/Models/MOCOCO/MOCOCO_âtâÅâÅê▀æò.MMD4Mecanim.asset
+  artifactKey: Guid(1f62b7c35e3b5b54cabaa845055a9a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Models/MOCOCO/MOCOCO_âtâÅâÅê▀æò.MMD4Mecanim.asset using Guid(1f62b7c35e3b5b54cabaa845055a9a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a631097f505d90d0a6058ae8207fb1') in 0.001229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
