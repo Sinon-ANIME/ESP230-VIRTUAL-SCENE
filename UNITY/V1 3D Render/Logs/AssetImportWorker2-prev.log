@@ -15,7 +15,7 @@ C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50622
+58532
 Successfully changed project path to: C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/aiden/Documents/ESP230/ESP230-VIRTUAL-SCENE/UNITY/V1 3D Render
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9508] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2792826226 [EditorId] 2792826226 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19404] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3624515205 [EditorId] 3624515205 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9508] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2792826226 [EditorId] 2792826226 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19404] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3624515205 [EditorId] 3624515205 [Version] 1048832 [Id] WindowsEditor(7,Aiden_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 25.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016066 seconds.
-- Loaded All Assemblies, in  0.703 seconds
+Registered in 0.017939 seconds.
+- Loaded All Assemblies, in  0.577 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.308 seconds
-Domain Reload Profiling: 1010ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.199 seconds
+Domain Reload Profiling: 773ms
+	BeginReloadAssembly (241ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (235ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (236ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (227ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (142ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (310ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (200ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (214ms)
+		SetupLoadedEditorAssemblies (156ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,53 +117,300 @@ Domain Reload Profiling: 1010ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.116 seconds
-Refreshing native plugins compatible for Editor in 8.17 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.728 seconds
+Refreshing native plugins compatible for Editor in 7.83 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.124 seconds
-Domain Reload Profiling: 2223ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.543 seconds
+Domain Reload Profiling: 1269ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (817ms)
-		LoadAssemblies (540ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (400ms)
-			TypeCache.Refresh (357ms)
-				TypeCache.ScanAssembly (335ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1124ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (544ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (891ms)
+		SetupLoadedEditorAssemblies (404ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (713ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (22ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 8.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (56.9 KB). Loaded Objects now: 3583.
-Memory consumption went from 136.4 MB to 136.4 MB.
-Total: 2.859000 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.264600 ms  DeleteObjects: 0.150000 ms)
+Unloading 33 unused Assets / (57.1 KB). Loaded Objects now: 3584.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 2.321000 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.029300 ms  DeleteObjects: 0.094400 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532576.993575 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1
+  artifactKey: Guid(9a550ee51e611ee40a7c8df1a0edfc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1 using Guid(9a550ee51e611ee40a7c8df1a0edfc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3823322574077d7ebefcb63bf684cff') in 0.002234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.476175 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Models/Mountains01.fbx
+  artifactKey: Guid(7d7b1b4c62dbbe4459d4b39b1e805e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Models/Mountains01.fbx using Guid(7d7b1b4c62dbbe4459d4b39b1e805e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc99296ac7e75d5a4dced00fade9f06') in 0.180734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.929657 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Scenes
+  artifactKey: Guid(c0dd58a8943a5ff4b817bc3c31c610bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Scenes using Guid(c0dd58a8943a5ff4b817bc3c31c610bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d60b54cba0e9f46dfe664988928ec7') in 0.000947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.312948 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures
+  artifactKey: Guid(1ada729d86c10ad458d6f5b2353bc09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures using Guid(1ada729d86c10ad458d6f5b2353bc09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f16745af02088c2b4c191e898c12cd3') in 0.001456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.088853 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Circle01_AB.mat
+  artifactKey: Guid(65700cbb3b887cd4e9ba3c6960267cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Circle01_AB.mat using Guid(65700cbb3b887cd4e9ba3c6960267cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6107006e9dd4132d8f32497a239559') in 0.165251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Swirl01_AB.mat
+  artifactKey: Guid(9dfe6cb2a56b1d042bfcf083da865616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Swirl01_AB.mat using Guid(9dfe6cb2a56b1d042bfcf083da865616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fddb234107f9cff17d45c5d623288db') in 0.019222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/DistortedFlare01_AB_2.mat
+  artifactKey: Guid(f89acd7b19d225944b4fbf35c6271641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/DistortedFlare01_AB_2.mat using Guid(f89acd7b19d225944b4fbf35c6271641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a53c5fd6526bdbbd749374d77afadff') in 0.017079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Flame02_AB_2.mat
+  artifactKey: Guid(6adc3f36cf95a8a41b4887cd0350238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Flame02_AB_2.mat using Guid(6adc3f36cf95a8a41b4887cd0350238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f02e34c7aca56832eaad8bb4ce60257') in 0.018596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Swirl01_AB_2.mat
+  artifactKey: Guid(a90f663dbd3114d4dae0a1b78c3419c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Swirl01_AB_2.mat using Guid(a90f663dbd3114d4dae0a1b78c3419c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb3a013ae5f5e764bf7225334b4a50') in 0.016399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Flare00_AB.mat
+  artifactKey: Guid(d66b59252470e8d40b75b0c55fd804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Flare00_AB.mat using Guid(d66b59252470e8d40b75b0c55fd804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0382f53b5978caba9e438ba26ecb1f1') in 0.020703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.401828 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Scene/Ground.mat
+  artifactKey: Guid(a8cf2a543d416384ea667f7eeda74ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Materials/Scene/Ground.mat using Guid(a8cf2a543d416384ea667f7eeda74ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94a7041fe4a76971717ec0558b9f04') in 0.100971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.139833 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Electricity_01.prefab
+  artifactKey: Guid(68101499d07aced4aa0ded4acb624942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Electricity_01.prefab using Guid(68101499d07aced4aa0ded4acb624942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781ef2d9b97beee75b60d5292bbd0907') in 0.030078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Portal_02.prefab
+  artifactKey: Guid(31e1448bbc469064e89a752925fc2ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Portal_02.prefab using Guid(31e1448bbc469064e89a752925fc2ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42240747d6e56a33900fa53cabeb4f7') in 0.023758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MuzzleFlash_01.prefab
+  artifactKey: Guid(1f58a1dea6bbd9347843e4935585e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MuzzleFlash_01.prefab using Guid(1f58a1dea6bbd9347843e4935585e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8611dc1920072bc4e55fa6b16047fc') in 0.014970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Flamethrower_01.prefab
+  artifactKey: Guid(366377810aaf4fc4ab2be725a54c5712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Flamethrower_01.prefab using Guid(366377810aaf4fc4ab2be725a54c5712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56eb532688b5655fdeeca1d4261a8af') in 0.025463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Lightning_02.prefab
+  artifactKey: Guid(c50f9e2c685970e4c8ebcd5fc8c7b3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Lightning_02.prefab using Guid(c50f9e2c685970e4c8ebcd5fc8c7b3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3339b7445b81b5df9721aff3493ef57a') in 0.020082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Impact_01.prefab
+  artifactKey: Guid(f78aaaec3b393e24ca74cd6de8194347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Impact_01.prefab using Guid(f78aaaec3b393e24ca74cd6de8194347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3cae76c05e76dfa30418b5b0f07e4f') in 0.015348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Rain_02.prefab
+  artifactKey: Guid(6c064513aa7cae142b65066943c8fdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Rain_02.prefab using Guid(6c064513aa7cae142b65066943c8fdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705bf631301646d2344f486dd2f96685') in 0.018203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Heal_02.prefab
+  artifactKey: Guid(b21d155ec7ea5a349a0e36106f913148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Heal_02.prefab using Guid(b21d155ec7ea5a349a0e36106f913148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0872964de1ae26649d0cee1dc8b14a') in 0.033692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MeteorRain_01.prefab
+  artifactKey: Guid(ae9bdcaa1a8496449b1068fd7844906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MeteorRain_01.prefab using Guid(ae9bdcaa1a8496449b1068fd7844906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d22f0211b66fdd2a42ec40055b07bed') in 0.030340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Projectile_01.prefab
+  artifactKey: Guid(bc142210df3ec4545a4e3e1f21e00da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Projectile_01.prefab using Guid(bc142210df3ec4545a4e3e1f21e00da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5951010ece35534b9fc2a132ac18f5f2') in 0.021559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Flamethrower_02.prefab
+  artifactKey: Guid(856f1f18fb8861d4499813c38a5963ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_Flamethrower_02.prefab using Guid(856f1f18fb8861d4499813c38a5963ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1388b254b63ad4cac836ab729cc5d7') in 0.029179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MeteorRain_02.prefab
+  artifactKey: Guid(8a474c5401202784ab11371270ef4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/FreeQuickEffectsVol1/Prefabs/vfx_MeteorRain_02.prefab using Guid(8a474c5401202784ab11371270ef4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c787875ae3f6bf330e25ed72bd5a07a') in 0.023481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.861 seconds
+Domain Reload Profiling: 3376ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (707ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.2 KB). Loaded Objects now: 3633.
+Memory consumption went from 142.3 MB to 142.3 MB.
+Total: 2.289300 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.018600 ms  DeleteObjects: 0.037600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
